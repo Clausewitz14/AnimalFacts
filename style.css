@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 30px;
+    padding: 50px;
+    background-color: lightskyblue;
+}
+h1{
+    text-align: center;
+}
+.opening{
+    text-align: center;
+}
+.facts{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.facts section{
+    background: #ffc600;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+#closing{
+    text-align: center;
+}
+#image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#welcome{
+    text-align: center;
+}
+#welcome2{
+    text-align: center;
+}
